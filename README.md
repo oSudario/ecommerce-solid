@@ -3,11 +3,6 @@
 Refatoração do projeto didático de https://github.com/maikonb/ecommerce-versao-com-erros-solid.
 Backend em TypeScript 5, Express e Prisma com SQLite. Os pagamentos são simulados, sem movimentação financeira.
 
-## Instalar e executar
-
-Requisito: Node.js 20 ou superior com npm.
-Abra o terminal na pasta do projeto e execute:
-
 ```bash
 npm ci
 npm run setup
@@ -77,7 +72,3 @@ O Ethereal precisa de internet e acesso SMTP. Se a notificação falhar, o pedid
 
 Pastas: controllers, domain, services, repositories, payments, providers e lib dentro de src. Migrações e seed em prisma. Testes em tests.
 
-## Publicar para entrega
-
-Crie um repositório público na sua conta GitHub. Envie os arquivos deste projeto, incluindo package-lock.json e a pasta prisma, sem node_modules, dist ou banco gerado.
-Abra a página do repositório em uma janela anônima para confirmar o acesso público. Entregue o link do seu próprio repositório na caixa de texto da atividade.
